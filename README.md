@@ -28,6 +28,13 @@
 ## Mac OS
 请 新建/修改 `/private/etc/hosts` 文件，并将我们的[hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts)文件中的内容全部内容复制到该文件中并保存。
 
+在该目录下执行
+
+```
+./update.sh
+```
+
+即可自动更新 hosts
 
 > 也可以使用[Gas Mask](http://www.macupdate.com/app/mac/29949/gas-mask/)工具。
 
