@@ -1,22 +1,25 @@
 [![doodle]][doodle-story]
 
-[doodle]: http://i.imgur.com/Vui3K9P.jpg "undefined"
+[doodle]: https://i.imgur.com/Vui3K9P.jpg "undefined"
 [doodle-story]: http://baike.baidu.com/link?url=Hoj02JsYhwUYVDaSaHSDazhfYjoqBmlzE_-K279sL3jQ3b7JQPVQi1wWX_s7tn5Vi0MuLX9oazEqpUbAGiIijiXHN1EmSXv-BMoh99MPD3a
 
 **使用本项目之前，请先阅读此 [README](README.md) 及下方的许可协议**
 
+**请务必注意,如果正确修改hosts后还是无法使用Google,在求助前请首先尝试通过https进行访问，如[https://www.google.com/](https://www.google.com/)**
 
-|       [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |
-| :----------------------------: | :-----------------------------------: |  :---------------------------: |
-|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |   [![coding.net]][coding-link]  |
+|       [聊天室][chat-room]       |    [hosts 格式检测][travis-status]    |  [镜像hosts][mirror_of_hosts]  |  [常见问题解答][faq]  |
+| :----------------------------: | :-----------------------------------: |  :---------------------------: |  :-----------------: |
+|  [![chat-metadata]][chat-room] |  [![travis-metadata]][travis-status]  |   [![coding.net]][coding-link]  |  [![faq_icon]][faq] | 
 
 [chat-metadata]: https://badges.gitter.im/racaljk/hosts.svg "Join the chat at https://gitter.im/racaljk/hosts"
 [chat-room]: https://gitter.im/racaljk/hosts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge "Gitter chat room"
 [travis-metadata]: https://travis-ci.org/racaljk/hosts.svg "Travis CI Metadata"
 [travis-status]: https://travis-ci.org/racaljk/hosts "Travis CI Status"
-[coding.net]: http://i.imgur.com/JDpN8Bd.png
+[coding.net]: https://i.imgur.com/JDpN8Bd.png
 [coding-link]: https://coding.net/u/scaffrey/p/hosts/git "Coding"
 [mirror_of_hosts]: https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
+[faq_icon]: http://www.easyicon.net/api/resizeApi.php?id=1190784&size=64
+[faq]: https://github.com/racaljk/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94
 
 ## 如何更新 hosts？
 **推荐**使用项目内 [Host Tools](tools) 来**自动地 备份/更新** hosts。
@@ -24,7 +27,7 @@
 * **Windows** 平台:
    1. 用文本编辑器（如 [Notepad++](https://notepad-plus-plus.org/)）打开：`
   %SystemRoot%\System32\drivers\etc\hosts`
-  > ![](http://i.imgur.com/BwW2cft.jpg)
+  > ![](https://i.imgur.com/BwW2cft.jpg)
 
    2. 将 [hosts][github-hosts] 全部内容复制到上面的文件内并保存。
    > 注意：如果遇到无法保存，请右键文件hosts并找到“属性” -> “安全”，然后选择你登陆的用户名，最后点击编辑，勾选“写入”即可。
@@ -39,7 +42,6 @@
    - 重启系统
 
 ## 更多
-- 如果在使用过程中遇到问题：如无法连接xxx等 请参阅: [常见问题解答](https://github.com/racaljk/hosts/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94)
 - 获取更多信息，请访问 [Wiki 页面](https://github.com/racaljk/hosts/wiki) 。如有问题，请开 [Issue](https://github.com/racaljk/hosts/issues) 反馈。
 
 ## Mac OS
